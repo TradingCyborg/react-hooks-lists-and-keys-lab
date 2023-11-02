@@ -3,10 +3,20 @@ const user = {
   city: "New York",
   bio: "I made this!",
   color: "firebrick",
-  links: {
-    github: "https://github.com/liza",
-    linkedin: "https://www.linkedin.com/in/liza/",
-  },
+  links: [
+    {
+      text:'home',
+      url:'https://github.com/liza'
+    },
+    {
+      text:'About',
+      url: 'https://www.linkedin.com/in/liza/'
+    },
+    {
+      text:'Projects',
+      url: 'https://www.linkedin.com/in/liza/'
+    }
+  ],
   projects: [
     {
       id: 1,
